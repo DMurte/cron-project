@@ -1,0 +1,26 @@
+{
+  "name": "mir",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "es5-async-await": "^1.0.0",
+    "express": "^4.16.2",
+    "express-group-routes": "^1.1.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.19.1",
+    "mysql2": "^1.4.2",
+    "node-cron": "^1.2.1",
+    "op": "0.0.5",
+    "sequelize": "^4.13.8",
+    "util": "^0.10.3"
+  }
+}
