@@ -20,7 +20,7 @@ console.log = (d) => { //
 const app = express();
 
 app.listen(3678, function() {
-     simulacrum = cron.schedule('* *', async (() => {
+     simulacrum = cron.schedule('* * * * * *', async (() => {
          try {
             const success =  await (queries.mainQuery());
             console.log(`${success} , ${moment().tz('America/Bogota').format()} `)

@@ -40,6 +40,9 @@ transactions : sequelize.define('transactions',{
     },
     renting_type :{
         type : Sequelize.INTEGER
+    },
+    meses :{
+        type : Sequelize.INTEGER
     }
     },
     {
